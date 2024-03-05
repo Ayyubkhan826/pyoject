@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding:0%;
+    
+}
+body{
+    font-family: 'Robote',Sans-serif;
+    background-color: rgb(223, 222, 222);
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top:0%;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(3, 126, 202);
+}
+ul{
+    display:flex;
+
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    margin-inline:22px;
+}
+.logo{
+    font-size:22px;
+
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 88px;
+}
+.main img{
+    width: 320px;
+    margin: 5px;
+    border:5px solid greenyellow;
+    
+    
+}
+.mainText{
+ margin-top: 55px;
+}
+.main h1{
+    font-size: 66px;
+}
+.main p{
+    margin-top: 22px;
+}
+.main button{
+    width: 130px;
+    height:40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 22px;
+    border: none;
+    cursor: pointer;
+}
+  .head{
+    text-align: center;
+    padding: 88px;
+  }
+  .special{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+   .special .card{
+    width: 200px;
+    height: 130px;
+    padding: 40px;
+    background-color: rgba(76, 0, 255, 0.836);
+    color: white;
+    margin-inline: 5px;
+    border-radius: 6px;
+    text-align: center;
+   }
+   .Doctor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .docCard{
+    width: 300px;
+    margin-inline:22px ;
+    text-align: center;
+   }
+   .docCard img{
+    width: 100%;
+    height: 300px;
+    
+   }
+   .docCard p{
+    background-color: black;
+    padding: 22px;
+    color: white;
+    font-size: 22px;
+   }
+   .review{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+   }
+   .reviewCards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    transition: all 1s ease;
+   }
+   .reviewCards img{
+    width: 240px;
+    margin-inline: 22px;
+    height: 250px;
+   }
+  .Footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: black;
+    color: white;
+    width: 1200px;
+    height: 100px;
+    border:5px double red;
+  } 
+  .text p{
+    margin-top: 22px;
+  }
+  #icon{
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .mode{
+    background-color: black;
+    color: white;
+  }
+  @media screen and(max-width:900px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    ul{
+        display: none;
+    }
+  }
+  @media screen and(max-width:920px){
+    .review{
+        width: 90%;
+    }
+    .review img{
+        width: 200px;
+        margin-inline: 9px;
+    }
+
+  }
+  @media screen and(max-width:670px){
+     .review img{
+        width: 170px;
+        height: 170px;
+        margin-inline:4px;
+
+     }
+  }
+  
+  @media screen and(max-width:500px){
+    .review img{
+        width: 100px;
+        height: 110px;
+
+    }
+  }
+
